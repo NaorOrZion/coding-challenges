@@ -45,7 +45,7 @@ def move_tail(head: Dict[str, int], tail: Dict[str, int]) -> Dict[str, int]:
     return tail
 
 
-def play_round(head: Dict[str, int], tail: Dict[str, int, set[Tuple[int, int]]], move_action: str, move_steps: int) -> Tuple[Dict[str, int]]:
+def play_round(head: Dict[str, int], tail: Dict[str, int], move_action: str, move_steps: int) -> Tuple[Dict[str, int]]:
 
     move_head_function = MOVE_HEAD_FUNCTIONS.get(move_action)
 
